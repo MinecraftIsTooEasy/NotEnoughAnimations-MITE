@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "notenoughanimations",
+  "version": "1.12.4",
+  "environment": "client",
+  "name": "NotEnoughAnimations",
+  "description": "Adding and improving animations in Third-Person.",
+  "authors": ["tr7zw"],
+  "license": "tr7zw Protective License",
+  "depends": {
+    "minecraft": "1.6.4-mite",
+    "fishmodloader": ">=3.4.2",
+    "entity_model_features": ">=3.2.4"
+  },
+  "entrypoints": {
+    "client": ["org.moddedmite.notenoughanimations.NotEnoughAnimationsClient"]
+  },
+  "mixins": ["notenoughanimations.mixins.json"]
+}

@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.moddedmite",
+    "module": "notenoughanimations",
+    "version": "1.12.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "notenoughanimations-1.12.4.jar",
+          "url": "notenoughanimations-1.12.4.jar",
+          "size": 783997,
+          "sha512": "28bdb7df2b9f4aed1c5d5c2ed30501c0996602667a92a9f53a0827f3a49049f73ee0c4f75e0930fdad7494a88159a3559bb0fe0f4251e07b097da1667f41aa93",
+          "sha256": "78231e16c4e73f24271914fa5286eab7e99660c819c201dd044dd594682b95b1",
+          "sha1": "de788d03e2b7a173a55478a7bcf56f96621ed06b",
+          "md5": "167fe73ebb809c6a32cd291c23b0b55e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.MinecraftIsTooEasy",
+          "module": "FishModLoader",
+          "version": {
+            "requires": "3.4.2"
+          }
+        },
+        {
+          "group": "org.joml",
+          "module": "joml",
+          "version": {
+            "requires": "1.10.8"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "notenoughanimations-1.12.4.jar",
+          "url": "notenoughanimations-1.12.4.jar",
+          "size": 783997,
+          "sha512": "28bdb7df2b9f4aed1c5d5c2ed30501c0996602667a92a9f53a0827f3a49049f73ee0c4f75e0930fdad7494a88159a3559bb0fe0f4251e07b097da1667f41aa93",
+          "sha256": "78231e16c4e73f24271914fa5286eab7e99660c819c201dd044dd594682b95b1",
+          "sha1": "de788d03e2b7a173a55478a7bcf56f96621ed06b",
+          "md5": "167fe73ebb809c6a32cd291c23b0b55e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "notenoughanimations-1.12.4-sources.jar",
+          "url": "notenoughanimations-1.12.4-sources.jar",
+          "size": 4507,
+          "sha512": "1f56d217c083a159fa94d334144b8f652eda9a517c92fad14027c2c2b52ff478b1ff93d6123d37f69205f6903fb3ed1bb59ef69a7ec0f2e5e4c06c2123242784",
+          "sha256": "1bb3d5d408c3693d2cce503f9cfca4975b7ce987cd100fab2b5b2453b99f2dfe",
+          "sha1": "09b391bd32a3d9aec825e43d36fb925bef7a9755",
+          "md5": "6c7f387290923e7c12e435538ff82317"
+        }
+      ]
+    }
+  ]
+}

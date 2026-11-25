@@ -1,0 +1,11 @@
+pluginManagement {
+    repositories {
+        mavenLocal()
+        maven { name = 'Fabric'; url = 'https://maven.fabricmc.net/' }
+        maven { url = uri("https://maven.limingzxc.top/repository/maven-public/") }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = "NotEnoughAnimations-MITE-FML3.4.2"

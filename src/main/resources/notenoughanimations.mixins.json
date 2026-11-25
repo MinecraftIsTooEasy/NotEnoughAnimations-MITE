@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "minVersion": "0.8.3",
+  "package": "org.moddedmite.notenoughanimations.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "target": "CLIENT",
+  "client": ["ModelBipedMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
